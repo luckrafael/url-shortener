@@ -19,8 +19,8 @@ class ControlledLottie extends Component {
     return(
       <div className="controlled">
         <Lottie options={defaultOptions}
-              height={483}
-              width={699}
+              // height={483}
+              // width={699}
               isStopped={this.state.isStopped}
               isPaused={this.state.isPaused}
         />

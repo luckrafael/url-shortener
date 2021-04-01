@@ -5,7 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
+html {
+  height: 100vh;
   background: linear-gradient(#ffffff, #ebf1ff);
 }
 

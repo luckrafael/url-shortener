@@ -51,6 +51,8 @@
 
 .lottie {
   padding: 0px 25px 0 10px;
+  width: 699px;
+  height: 483px;
 }
 
 .url {
@@ -66,6 +68,7 @@
   color: #29486c;
   font-weight: medium;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .url input {
@@ -77,7 +80,7 @@
 }
 
 .url button {
-  width: 300px;
+  width: 200px;
   height: 66px;
   background-color: #0f2b4b;
   color: #dae5f7;
@@ -90,4 +93,23 @@
 
 .url button:hover {
   background-color: #3c71a2;
+}
+
+@media (max-width: 1200px) {
+  .center {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 730px) {
+  .logo {
+    display: none;
+  }
+
+  .lottie {
+    width: 500px;
+    height: auto;
+    margin-bottom: 35px;
+  }
 }
