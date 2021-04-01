@@ -38,6 +38,7 @@ export default function Home() {
           <p>Cole a URL desjeada para ser encurtada:</p>
         </div>
         <input></input>
+        <button>Encurtar</button>
       </section>
 
 
