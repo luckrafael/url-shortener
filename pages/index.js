@@ -1,5 +1,8 @@
 import Head from 'next/head'
+import LottieControl from '../controllers/LottieControl'
+import Lottie from '../controllers/LottieControl'
 import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
@@ -9,12 +12,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <LottieControl/>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
+        <p className={styles.anime}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
@@ -60,6 +65,7 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
+      
     </div>
   )
 }
