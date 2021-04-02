@@ -103,6 +103,19 @@
 }
 
 @media (max-width: 730px) {
+  .container {
+    height: 100vh;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .sociais img {
+    height: 30px;
+    width: 25px;
+  }
+
   .logo {
     display: none;
   }
@@ -111,5 +124,19 @@
     width: 500px;
     height: auto;
     margin-bottom: 35px;
+  }
+
+  .center {
+    font-size: 2rem;
+  }
+
+  .url p {
+    font-size: 1.2rem;
+  }
+
+  .url button {
+    width: 170px;
+    height: 50px;
+    font-size: 1.5rem;
   }
 }
