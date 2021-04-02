@@ -19,8 +19,8 @@ export default function Home() {
           Encurtador de URL
         </h1>
         <div className={styles.sociais}>
-          <img src="LinkedIn.svg" />
-          <img src="github.svg" />
+          <a href="https://www.linkedin.com/in/lucas-rafael-simoes/" target="blank"><img src="LinkedIn.svg" /></a>
+          <a href="https://github.com/luckrafael/" target="blank"><img src="github.svg" /></a>
         </div>
       </main>
 
