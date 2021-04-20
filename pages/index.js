@@ -3,8 +3,14 @@ import React from "react";
 import { GitHub, LinkedIn } from "../src/components/sociais";
 import LottieControl from "../src/controllers/LottieControl";
 import styles from "../src/styles/Home.module.css";
+import { useCallback, useEffect, useState } from "react";
 
 export default function Home() {
+  const [link, setLink] = useState(false);
+  const [responseLink, setResponseLink] = useState("");
+
+  function LinkGerado() {}
+
   return (
     <div className={styles.container}>
       <Head>
@@ -42,7 +48,18 @@ export default function Home() {
           <p>Cole a URL desjeada para ser encurtada:</p>
         </div>
         <input></input>
-        <button>Encurtar</button>
+        {link && (
+          <div className={styles.url}>
+            <p>
+              Link encurtado:{" "}
+              <a target="_blank" href="http://localhost:3000/">
+                http://localhost:3000/google.com.br
+              </a>
+            </p>
+            <p></p>
+          </div>
+        )}
+        <button onClick={(e) => setLink(true)}>Encurtar</button>
       </section>
 
       <footer className={styles.footer}></footer>
