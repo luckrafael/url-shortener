@@ -9,8 +9,6 @@ export default function Home() {
   const [link, setLink] = useState(false);
   const [responseLink, setResponseLink] = useState("");
 
-  function LinkGerado() {}
-
   return (
     <div className={styles.container}>
       <Head>
