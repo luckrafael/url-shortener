@@ -82,6 +82,14 @@
   text-align: center;
 }
 
+.url a {
+  font-size: 30px;
+  color: #29c3ff;
+  font-weight: medium;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
 .url input {
   border: solid #3c71a2;
   border-radius: 19px;
