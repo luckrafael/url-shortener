@@ -66,6 +66,12 @@
   height: 483px;
 }
 
+.input {
+  font-size: 22px;
+  padding-left: 20px;
+  color: #29486c;
+}
+
 .url {
   margin-top: 40px;
   display: flex;
