@@ -59,7 +59,7 @@ export default function Home() {
 
       <section className={styles.url}>
         <div>
-          <p>Cole a URL desjeada para ser encurtada:</p>
+          <p>Cole a URL desejada para ser encurtada:</p>
         </div>
         <input
           className={styles.input}
